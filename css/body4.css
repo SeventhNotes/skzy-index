@@ -1,0 +1,100 @@
+.body4 {
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../images/4.1bd4cac.jpg);
+	background-size: 100% 100%;
+}
+.worldnav{
+	position: absolute;
+	top: 2600px;
+	left: 165px;
+}
+.worldnav .worldborder{
+	width: 20px;
+	height: 300px;
+	float: left;
+	border-left: 1px solid #ffffff;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
+.worldnav .worldborder ul li{
+	line-height: 2;
+}
+.worldnav ul{
+	margin-top: 30px;
+}
+.worldnav ul li{
+	width: 200px;
+	height: 50px;
+}
+.worldnav ul .wn{
+	color: #ffffff;
+	font-size: 26px;
+	font-weight: 600;
+	text-shadow: 1px 5px 6px #767676;
+	border-left: 10px solid rgba(1,1,1,0);
+	cursor:pointer;
+}
+.worldnav ul .wn:hover{
+	color: #f9c742;
+}
+.worldnav ul .wn1{
+	color: #F9C742;
+}
+.worldnav ul li .wn-{
+	color: #ffffff;
+	border-left: 10px solid rgba(1,1,1,0);
+	border-right: 15px solid rgba(1,1,1,0);
+	opacity: 0.5;
+}
+
+.worldimg-box{
+	width: 600px;
+	height: 450px;
+	position: relative;
+	top: -10px;
+	left: 500px;
+	overflow: hidden;
+}
+.worldimg-box .worldimg{
+	position: relative;
+	width: 600px;
+	height: auto;
+}
+.worldp{
+	color: white;
+	background-color: rgba(0,0,0,0.2);
+	width: 1050px;
+	height: 130px;
+	position: absolute;
+	top: 3000px;
+	left: 190px;
+	border-left: 15px solid #F9C742;
+}
+.worldp ul li div{
+	width: 800px;
+	height: 80px;
+	position: absolute;
+	top: 25px;
+	left: 180px;
+	border-left: 3px solid #b3b3b3;
+	padding-left: 20px;
+}
+.worldp ul li span{
+	padding-left: 40px;
+}
+.worldp ul li .wp11{
+	font-size: 26px;
+	font-weight: 600;
+}
+.worldp ul li .wp12{
+	font-size: 40px;
+	font-weight: 600;
+}
+.worldp ul li .wp13{
+	font-size: 1px;
+	font-weight: 300;
+}
+.worldp .wp2,.wp3,.wp4,.wp5{
+	display: none;
+}

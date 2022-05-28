@@ -1,0 +1,181 @@
+#body>.body1 {
+	width: 100vw;
+	height: 100vh;
+}
+
+.body1 .tx {
+	width: 55px;
+	height: 70px;
+	position: absolute;
+	top: 106px;
+	left: 140px;
+	z-index: 98;
+}
+
+.body1 .p {
+	width: 512px;
+	height: 116px;
+	position: absolute;
+	top: 475px;
+	left: 65px;
+	z-index: 98;
+}
+
+.body1 video {
+	width: 1860px;
+	position: absolute;
+	margin-left: -160px;
+}
+
+.body1 .down {
+	width: 380px;
+	height: 110px;
+	position: absolute;
+	top: 610px;
+	left: 140px;
+	z-index: 98;
+}
+
+.body1 .down>.down2 {
+	width: 110px;
+	height: 106px;
+	margin-left: 8px;
+	float: left;
+}
+
+.body1 .down>.down2>div {
+	width: 110px;
+	height: 31px;
+	border: 1px solid aliceblue;
+	border-radius: 6px;
+	float: left;
+}
+
+.body1 .down>.down2>.d2 {
+	margin-top: 4px;
+	margin-bottom: 5px;
+}
+
+.body1 .down>.down3 {
+	width: 130px;
+	height: 106px;
+	margin-left: 8px;
+	float: left;
+}
+
+.body1 .down>.down3>.d4 {
+	width: 95px;
+	height: 106px;
+	border: 1px solid aliceblue;
+	border-radius: 6px;
+	float: left;
+}
+
+.body1 .down>.down3>.d5 {
+	width: 21px;
+	height: 106px;
+	border: 1px solid aliceblue;
+	border-radius: 6px;
+	float: left;
+}
+
+.body1 .down>.down1>.img1 {
+	position: absolute;
+	top: 30px;
+	left: 38px;
+}
+
+.body1 .down>.down1>.img2 {
+	position: absolute;
+	top: 15px;
+	left: 16px;
+	animation: rotate 4s linear infinite;
+}
+
+@-webkit-keyframes rotate {
+	from {
+		transform: rotate(360deg);
+	}
+
+	to {
+		transform: rotate(0deg);
+	}
+}
+
+.body1 .down>.down1>.img2:hover {
+	cursor: pointer;
+	animation-play-state: paused;
+}
+
+.body1 .down>.down1 {
+	width: 106px;
+	height: 106px;
+	border: 1px solid aliceblue;
+	border-radius: 6px;
+	float: left;
+	background-image: url(../images/play-bg.c8767c3.png);
+	background-size: 100% 100%;
+}
+
+.body1 .down>.down2>.d1 {
+	background-image: url(../images/xz-ios1.png);
+	background-size: 100% 100%;
+}
+
+.body1 .down>.down2>.d2 {
+	background-image: url(../images/xz-android1.png);
+	background-size: 100% 100%;
+}
+
+.body1 .down>.down2>.d3 {
+	background-image: url(../images/xz-tap1.png);
+	background-size: 100% 100%;
+}
+
+.body1 .down>.down3>.d4 {
+	background-image: url(../images/qrcode-dl.db23376.png);
+	background-size: 100% 100%;
+}
+
+.body1 .down>.down3>.d5 {
+	background-image: url(../images/xz-mnq1.png);
+	background-size: 100% 100%;
+}
+
+.body1 .down>.down2>.d1:hover {
+	cursor: pointer;
+	background-image: url(../images/xz-ios.png);
+	background-size: 100% 100%;
+}
+
+.body1 .down>.down2>.d2:hover {
+	cursor: pointer;
+	background-image: url(../images/xz-android.png);
+	background-size: 100% 100%;
+}
+
+.body1 .down>.down2>.d3:hover {
+	cursor: pointer;
+	background-image: url(../images/xz-tap.png);
+	background-size: 100% 100%;
+}
+
+.body1 .down>.down3>.d5:hover {
+	cursor: pointer;
+	background-image: url(../images/xz-mnq.png);
+	background-size: 100% 100%;
+}
+
+.video-box{
+	width: 900px;
+	height: 450px;
+	position: absolute;
+	top: 150px;
+	left: 460px;
+	z-index: 99;
+	display: none;
+}
+.video-box video{
+	width: 900px;
+	height: 450px;
+}

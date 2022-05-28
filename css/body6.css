@@ -1,0 +1,62 @@
+.body6 {
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../images/6.5a1525b.jpg);
+	background-size: 100% 100%;
+}
+.bodyh{
+	width: 300px;
+	height: 45px;
+	background-image: url(../images/body6log.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 4180px;
+	left: 200px;
+}
+.media-p1{
+	background-image: url(../images/video.eb98936.png);
+	background-size: 100% 100%;
+	width: 280px;
+	height: 300px;
+	position: absolute;
+	top: 4280px;
+	left: 200px;
+}
+.media-p2{
+	background-image: url(../images/wallpaper.8fea4e5.png);
+	background-size: 100% 100%;
+	width: 280px;
+	height: 300px;
+	position: absolute;
+	top: 4280px;
+	left: 510px;
+}
+.media-p3{
+	background-image: url(../images/comics.0c6b653.png);
+	background-size: 100% 100%;
+	width: 280px;
+	height: 300px;
+	position: absolute;
+	top: 4280px;
+	left: 820px;
+}
+.media-p .mp{
+	width: 170px;
+	height: 30px;
+	background-color: rgba(0,0,0,0.2);
+	position: absolute;
+	top: 250px;
+	left: 55px;
+}
+.media-p .mp:hover{
+	background-color: rgba(0,0,0,1);
+	border-left: 5px solid #F9C742;
+}
+.media-p .mp span{
+	color: white;
+	float: right;
+	line-height: 30px;
+	font-size: 12px;
+	margin-right: 40px;
+	cursor:pointer;
+}

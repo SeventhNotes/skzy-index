@@ -1,0 +1,120 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.section .footlight{
+	position: relative;
+	top: 85vh;
+}
+li{
+	list-style: none;
+}
+/***nav***/
+.body1 .tree {
+	width: 215px;
+	position: absolute;
+	top: 490px;
+	right: 80px;
+	z-index: 97;
+}
+#nav{
+	display: none;
+}
+#nav>.navtree-1{
+	cursor:pointer;
+	list-style: none;
+	line-height: 80px;
+	position: absolute;
+	top: 140px;
+	right: 175px;
+	z-index: 97;
+}
+#nav>.navtree-1>.home1{
+	border-left: 36px solid rgba(1,1,1,0);
+}
+#nav>.navtree-2{
+	cursor:pointer;
+	list-style: none;
+	line-height: 46px;
+	position: absolute;
+	top: 144px;
+	right: 168px;
+	z-index: 96;
+}
+/***head***/
+#head {
+	width: 100vw;
+	height: 80px;
+	background-color: #1c1c1c;
+	position: fixed;
+	top: 0px;
+	z-index: 99;
+	display: none;
+}
+
+#head>.log {
+	position: absolute;
+	top: 19px;
+	left: 10.8%;
+}
+
+#head>.link {
+	height: 25px;
+	padding-left: 35%;
+	position: absolute;
+	top: 28px;
+	left: 30%;
+}
+
+#head>.link>.i {
+	border-left: 6px solid #1c1c1c;
+}
+
+#head>.link>.i>.iwx {
+	position: absolute;
+	top: 52px;
+	left: 75%;
+	display: none;
+}
+
+#head>.link>.i>.iqq {
+	position: absolute;
+	top: 52px;
+	left: 77%;
+	display: none;
+}
+
+#head>.link>.i>.ifx {
+	position: absolute;
+	top: 52px;
+	left: 93%;
+	display: none;
+
+}
+
+#head>.link>.i>.iqq>a>img {
+	width: 220px;
+	height: 40px;
+}
+
+#head>.link>.i>.ifx>img {
+	width: 100px;
+	height: 100px;
+}
+
+#head>.reg {
+	font-size: 20px;
+	margin-top: 26px;
+	margin-right: 8%;
+	float: right;
+}
+
+#head>.reg>span>a {
+	text-decoration: none;
+	color: aliceblue;
+}
+
+#head>.reg>.g {
+	border-left: 10px solid #1C1C1C;
+	border-right: 10px solid #1C1C1C;
+}

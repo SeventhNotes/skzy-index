@@ -1,0 +1,56 @@
+.body3 {
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../images/3.4de8516.jpg);
+	background-size: 100% 100%;
+}
+.body3 .characters{
+	width: 150px;
+	height: 220px;
+	transition: 0.5s ease;
+	cursor: pointer;
+}
+.character-1{
+	background-image: url(../images/YGGDRASIL.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 1900px;
+	left: 100px;
+}
+.character-2{
+	border-top: 5px solid rgba(1,1,1,0);
+	background-image: url(../images/SAKURA.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 1900px;
+	left: 310px;
+}
+.character-3{
+	background-image: url(../images/NIRO.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 1900px;
+	left: 510px;
+}
+.character-4{
+	border-top: 15px solid rgba(1,1,1,0);
+	background-image: url(../images/OLYMPIA.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 1900px;
+	left: 740px;
+}
+.character-5{
+	border-top: 5px solid rgba(1,1,1,0);
+	background-image: url(../images/STARS.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 1900px;
+	left: 940px;
+}
+.body3 .characters:hover{
+	transform: scale(1.5,1.5);
+}

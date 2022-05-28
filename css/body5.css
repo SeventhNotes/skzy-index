@@ -1,0 +1,70 @@
+.body5 {
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../images/5.4c1d5ce.jpg);
+	background-size: 100% 100%;
+}
+.featureimg-box{
+	width: 835px;
+	height: 470px;
+	font-size: 0;
+	position: relative;
+	top: -10px;
+	left: 230px;
+	background-color: #F9C742;
+	overflow: hidden;
+}
+.featureimg-box .featureimg{
+	width: auto;
+	height: 470px;
+	position: relative;
+	white-space: nowrap;
+}
+.featureimg-box .featureimg img{
+	width: 835px;
+	height: 470px;
+}
+.featureimg-left{
+	width: 40px;
+	height: 55px;
+	background-image: url(../images/left.png);
+	background-size: 100% 100%;
+	cursor: pointer;
+	position: absolute;
+	top: 3500px;
+	left: 170px;
+}
+.featureimg-right{
+	width: 40px;
+	height: 55px;
+	background-image: url(../images/right.png);
+	background-size: 100% 100%;
+	cursor: pointer;
+	position: absolute;
+	top: 3500px;
+	left: 1090px;
+}
+.featureimg-nav{
+	width: 960px;
+	height: 100px;
+	background-image: url(../images/body5border.png);
+	background-size: 100% 35px;
+	background-repeat: no-repeat;
+	background-position-y:center;
+	position: absolute;
+	top: 3780px;
+	left: 170px;
+}
+.featureimg-nav ul li img{
+	width: 155px;
+	height: 90px;
+	margin-left: 30px;
+	float: left;
+	cursor: pointer;
+}
+.featureimg-nav ul li{
+	opacity: 0.3;
+}
+.featureimg-nav ul .fnshow{
+	opacity: 1;
+}

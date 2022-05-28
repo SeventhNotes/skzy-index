@@ -1,0 +1,123 @@
+.body2 {
+			width: 100vw;height: 100vh;
+			background-image: url(../images/2.b398f31.jpg);
+			background-size: 100% 100%;
+			}
+.bg-imgshow{
+	width: 825px;
+	height: 435px;
+	background-color: aliceblue;
+	opacity: 0.1;
+	position: absolute;
+	left: 160px;
+	top: 890px;
+	z-index: 3;
+}
+.bg-imgopt{
+	width: 230px;
+	height: 160px;
+	background-color: grey;
+	opacity: 0.2;
+	position: absolute;
+	left: 815px;
+	top: 1200px;
+	z-index: 4;
+}
+.imgall{
+	height: auto;
+	width: 825px;
+	margin-left: 180px;
+	font-size: 0;
+	position: relative;
+	top: -5px;
+	z-index: 5;
+	overflow: hidden;
+}
+.imgshow{
+	height: auto;
+	white-space: nowrap;
+	position:relative;
+}
+.imgshow img{
+	height: 435px;
+	width: 825px;
+}
+.imgopt{
+	width: 230px;
+	height: 160px;
+	margin-top: 30px;
+	position: absolute;
+	left: 815px;
+	top: 1200px;
+	z-index: 6;
+}
+.imgopt ul li{
+	float: right;
+	width: 150px;
+	height: 15px;
+	color: aliceblue;
+	text-align: right;
+	line-height: 15px;
+	background-image: url(../images/下载.png);
+	cursor:pointer;
+	background-size: 100% 100%;
+	margin: 8px;
+}
+.imgopt ul li span{
+	border-right: 8px solid rgba(1,1,1,0);
+}
+.newsshow{
+	width: 880px;
+	height: 180px;
+	position: absolute;
+	left: 180px;
+	top: 1355px;
+	z-index: 6;
+}
+.newsnav span{
+	color: #767676;
+	font-size: 28px;
+	font-weight: 550;
+	margin-left: 57px;
+	cursor:pointer;
+}
+.newsnav .nsf{
+	font-size: 18px;
+	font-weight: 400;
+}
+.newsnav div{
+	width: 880px;
+	height: 35px;
+	background-color: aliceblue; 
+	opacity: 0.5;
+	margin-top: 10px;
+	cursor:pointer;
+}
+.ns12,.ns13,.ns14{
+	display: none;
+}
+.newsnav div ul li span{
+	color: black;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 35px;
+}
+.newsnav div ul li .nsm{
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 35px;
+	position: absolute;
+	right: 40px;
+}
+.newsnav div:hover{
+	background-color: #767676;
+	opacity: 1;
+	border-left: 10px solid orange;
+}
+.newsshow .newsnav .newsnav1{
+	color: black;
+}
+.worldimg-5{
+	width: 600px;
+	height: 250px;
+}
